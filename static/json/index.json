@@ -1,0 +1,415 @@
+[
+    {
+        "type": "movie",
+        "short": "sw9.mp4",
+        "title": "Star Wars IX: Rise of Skywalker",
+        "path": "/watch?name=sw9.mp4",
+        "img": "/api/img/skywalker.jpg"
+    },
+    {
+        "type": "movie",
+        "short": "hobbsandshow.mp4",
+        "title": "Fast and Furious: Hobbs & Show",
+        "path": "/watch?name=hobbsandshow.mp4",
+        "img": "/api/img/hs.jpg"
+    },
+    {
+        "type": "movie",
+        "short": "hp3.mp4",
+        "title": "Harry Potter et le Prisonnier d'Askaban",
+        "path": "/watch?name=hp3.mp4",
+        "img": "/api/img/hp3.jpg"
+    },
+    {
+        "type": "serie",
+        "short": "got-s1",
+        "title": "Game Of Thrones - Saison 1",
+        "img": "/api/img/got-s1.jpg",
+        "link": "/seasons?name=got-s1",
+        "episodes": [
+            {
+                "title": "EP01",
+                "path": "/watch?path=got-s1-ep1"
+            },
+            {
+                "title": "EP02",
+                "path": "/watch?path=got-s1-ep2"
+            },
+            {
+                "title": "EP03",
+                "path": "/watch?path=got-s1-ep3"
+            },
+            {
+                "title": "EP04",
+                "path": "/watch?path=got-s1-ep4"
+            },
+            {
+                "title": "EP05",
+                "path": "/watch?path=got-s1-ep5"
+            },
+            {
+                "title": "EP06",
+                "path": "/watch?path=got-s1-ep6"
+            },
+            {
+                "title": "EP07",
+                "path": "/watch?path=got-s1-ep7"
+            },
+            {
+                "title": "EP08",
+                "path": "/watch?path=got-s1-ep8"
+            },
+            {
+                "title": "EP09",
+                "path": "/watch?path=got-s1-ep9"
+            },
+            {
+                "title": "EP10",
+                "path": "/watch?path=got-s1-ep10"
+            }
+        ]
+    },
+    {
+        "type": "serie",
+        "short": "got-s2",
+        "title": "Game Of Thrones - Saison 2",
+        "img": "/api/img/gots1_poster.jpg",
+        "link": "/seasons?name=got-s2",
+        "episodes": [
+            {
+                "title": "EP01",
+                "path": "/watch?path=got-s2-ep1"
+            },
+            {
+                "title": "EP02",
+                "path": "/watch?path=got-s2-ep2"
+            },
+            {
+                "title": "EP03",
+                "path": "/watch?path=got-s2-ep3"
+            },
+            {
+                "title": "EP04",
+                "path": "/watch?path=got-s2-ep4"
+            },
+            {
+                "title": "EP05",
+                "path": "/watch?path=got-s2-ep5"
+            },
+            {
+                "title": "EP06",
+                "path": "/watch?path=got-s2-ep6"
+            },
+            {
+                "title": "EP07",
+                "path": "/watch?path=got-s2-ep7"
+            },
+            {
+                "title": "EP08",
+                "path": "/watch?path=got-s2-ep8"
+            },
+            {
+                "title": "EP09",
+                "path": "/watch?path=got-s2-ep9"
+            },
+            {
+                "title": "EP10",
+                "path": "/watch?path=got-s2-ep10"
+            }
+        ]
+    },
+    {
+        "type": "serie",
+        "short": "got-s3",
+        "title": "Game Of Thrones - Saison 3",
+        "img": "/api/img/gots1_poster.jpg",
+        "link": "/seasons?name=got-s3",
+        "episodes": [
+            {
+                "title": "EP01",
+                "path": "/watch?path=got-s3-ep1"
+            },
+            {
+                "title": "EP02",
+                "path": "/watch?path=got-s3-ep2"
+            },
+            {
+                "title": "EP03",
+                "path": "/watch?path=got-s3-ep3"
+            },
+            {
+                "title": "EP04",
+                "path": "/watch?path=got-s3-ep4"
+            },
+            {
+                "title": "EP05",
+                "path": "/watch?path=got-s3-ep5"
+            },
+            {
+                "title": "EP06",
+                "path": "/watch?path=got-s3-ep6"
+            },
+            {
+                "title": "EP07",
+                "path": "/watch?path=got-s3-ep7"
+            },
+            {
+                "title": "EP08",
+                "path": "/watch?path=got-s3-ep8"
+            },
+            {
+                "title": "EP09",
+                "path": "/watch?path=got-s3-ep9"
+            },
+            {
+                "title": "EP10",
+                "path": "/watch?path=got-s3-ep10"
+            }
+        ]
+    },
+    {
+        "type": "serie",
+        "short": "got-s4",
+        "title": "Game Of Thrones - Saison 4",
+        "img": "/api/img/gots1_poster.jpg",
+        "link": "/seasons?name=got-s4",
+        "episodes": [
+            {
+                "title": "EP01",
+                "path": "/watch?path=got-s4-ep1"
+            },
+            {
+                "title": "EP02",
+                "path": "/watch?path=got-s4-ep2"
+            },
+            {
+                "title": "EP03",
+                "path": "/watch?path=got-s4-ep3"
+            },
+            {
+                "title": "EP04",
+                "path": "/watch?path=got-s4-ep4"
+            },
+            {
+                "title": "EP05",
+                "path": "/watch?path=got-s4-ep5"
+            },
+            {
+                "title": "EP06",
+                "path": "/watch?path=got-s4-ep6"
+            },
+            {
+                "title": "EP07",
+                "path": "/watch?path=got-s4-ep7"
+            },
+            {
+                "title": "EP08",
+                "path": "/watch?path=got-s4-ep8"
+            },
+            {
+                "title": "EP09",
+                "path": "/watch?path=got-s4-ep9"
+            },
+            {
+                "title": "EP10",
+                "path": "/watch?path=got-s4-ep10"
+            }
+        ]
+    },
+    {
+        "type": "serie",
+        "short": "got-s5",
+        "title": "Game Of Thrones - Saison 5",
+        "img": "/api/img/gots1_poster.jpg",
+        "link": "/seasons?name=got-s5",
+        "episodes": [
+            {
+                "title": "EP01",
+                "path": "/watch?path=got-s5-ep1"
+            },
+            {
+                "title": "EP02",
+                "path": "/watch?path=got-s5-ep2"
+            },
+            {
+                "title": "EP03",
+                "path": "/watch?path=got-s5-ep3"
+            },
+            {
+                "title": "EP04",
+                "path": "/watch?path=got-s5-ep4"
+            },
+            {
+                "title": "EP05",
+                "path": "/watch?path=got-s5-ep5"
+            },
+            {
+                "title": "EP06",
+                "path": "/watch?path=got-s5-ep6"
+            },
+            {
+                "title": "EP07",
+                "path": "/watch?path=got-s5-ep7"
+            },
+            {
+                "title": "EP08",
+                "path": "/watch?path=got-s5-ep8"
+            },
+            {
+                "title": "EP09",
+                "path": "/watch?path=got-s5-ep9"
+            },
+            {
+                "title": "EP10",
+                "path": "/watch?path=got-s5-ep10"
+            }
+        ]
+    },
+    {
+        "type": "serie",
+        "short": "got-s6",
+        "title": "Game Of Thrones - Saison 6",
+        "img": "/api/img/gots1_poster.jpg",
+        "link": "/seasons?name=got-s6",
+        "episodes": [
+            {
+                "title": "EP01",
+                "path": "/watch?path=got-s6-ep1"
+            },
+            {
+                "title": "EP02",
+                "path": "/watch?path=got-s6-ep2"
+            },
+            {
+                "title": "EP03",
+                "path": "/watch?path=got-s6-ep3"
+            },
+            {
+                "title": "EP04",
+                "path": "/watch?path=got-s6-ep4"
+            },
+            {
+                "title": "EP05",
+                "path": "/watch?path=got-s6-ep5"
+            },
+            {
+                "title": "EP06",
+                "path": "/watch?path=got-s6-ep6"
+            },
+            {
+                "title": "EP07",
+                "path": "/watch?path=got-s6-ep7"
+            },
+            {
+                "title": "EP08",
+                "path": "/watch?path=got-s6-ep8"
+            },
+            {
+                "title": "EP09",
+                "path": "/watch?path=got-s6-ep9"
+            },
+            {
+                "title": "EP10",
+                "path": "/watch?path=got-s6-ep10"
+            }
+        ]
+    },
+    {
+        "type": "serie",
+        "short": "got-s7",
+        "title": "Game Of Thrones - Saison 7",
+        "img": "/api/img/gots1_poster.jpg",
+        "link": "/seasons?name=got-s7",
+        "episodes": [
+            {
+                "title": "EP01",
+                "path": "/watch?path=got-s7-ep1"
+            },
+            {
+                "title": "EP02",
+                "path": "/watch?path=got-s7-ep2"
+            },
+            {
+                "title": "EP03",
+                "path": "/watch?path=got-s7-ep3"
+            },
+            {
+                "title": "EP04",
+                "path": "/watch?path=got-s7-ep4"
+            },
+            {
+                "title": "EP05",
+                "path": "/watch?path=got-s7-ep5"
+            },
+            {
+                "title": "EP06",
+                "path": "/watch?path=got-s7-ep6"
+            },
+            {
+                "title": "EP07",
+                "path": "/watch?path=got-s7-ep7"
+            },
+            {
+                "title": "EP08",
+                "path": "/watch?path=got-s7-ep8"
+            },
+            {
+                "title": "EP09",
+                "path": "/watch?path=got-s7-ep9"
+            },
+            {
+                "title": "EP10",
+                "path": "/watch?path=got-s7-ep10"
+            }
+        ]
+    },
+    {
+        "type": "serie",
+        "short": "got-s8",
+        "title": "Game Of Thrones - Saison 8",
+        "img": "/api/img/gots1_poster.jpg",
+        "link": "/seasons?name=got-s8",
+        "episodes": [
+            {
+                "title": "EP01",
+                "path": "/watch?path=got-s8-ep1"
+            },
+            {
+                "title": "EP02",
+                "path": "/watch?path=got-s8-ep2"
+            },
+            {
+                "title": "EP03",
+                "path": "/watch?path=got-s8-ep3"
+            },
+            {
+                "title": "EP04",
+                "path": "/watch?path=got-s8-ep4"
+            },
+            {
+                "title": "EP05",
+                "path": "/watch?path=got-s8-ep5"
+            },
+            {
+                "title": "EP06",
+                "path": "/watch?path=got-s8-ep6"
+            },
+            {
+                "title": "EP07",
+                "path": "/watch?path=got-s8-ep7"
+            },
+            {
+                "title": "EP08",
+                "path": "/watch?path=got-s8-ep8"
+            },
+            {
+                "title": "EP09",
+                "path": "/watch?path=got-s8-ep9"
+            },
+            {
+                "title": "EP10",
+                "path": "/watch?path=got-s8-ep10"
+            }
+        ]
+    }
+]

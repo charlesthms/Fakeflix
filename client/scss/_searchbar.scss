@@ -1,0 +1,182 @@
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 85%;
+    left: 0;
+    right: 0;
+    top: 2vh;
+    margin: 0 auto;
+    z-index: 100;
+
+    & img {
+        width: 10vw;
+        height: auto;
+    }
+
+}
+
+
+.search {
+    width: 100%;
+
+    .search-box {
+        padding: 0 15px;
+        margin: 0 auto;
+        width: 40%;
+        border-radius: 13px;
+        transition: all .2s ease-in-out;
+        background: var(--light);
+
+        box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.404);
+
+        &:focus-within {
+            outline: none;
+            width: 45vw;
+        }
+
+        .in {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            i{
+                font-size: 1.3rem;
+                color: var(--accent);
+            }
+
+            .search-bar {
+                position: relative;
+                padding: 0 20px;
+                height: 45px;
+                border: none;
+                width: 90%;
+                font-size: 16px;
+                outline: none;
+                background-color: var(--light);
+                font-family: 'Poppins', sans-serif;
+                color: #dcdcdc;
+            }
+        }
+
+
+        .suggestion {
+            display: none;
+
+            pointer-events: auto;
+            cursor: default;
+            width: 100%;
+            border-radius: 13px 13px;
+
+            border-radius: 13px 13px;
+
+            padding: 0vh 2vw;
+
+            font-size: 15px;
+            font-family: 'Poppins', sans-serif;
+            text-align: left;
+
+            background-color: var(--light);
+
+            >ul {
+                list-style-type: none;
+                >li {
+                    display: flex;
+                    margin: 3px 0;
+                    width: 100%;
+                    
+                    >a {
+                        position: relative;
+                        width: 100%;
+                        padding: 1vh 1vw;
+                        color: rgba(255, 255, 255, 0.616);
+                        text-decoration: none;
+                        transition: all .1s ease-in;
+                        border-radius: 10px;
+                        &:hover {
+                            cursor: pointer;
+                            background-color: #424050;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    // /* Suggestions */
+
+    // .sugg-container {
+    //     position: absolute !important;
+    //     z-index: 100 !important;
+    //     width: 50vw;
+    //     //max-height: 20vh;
+    //     overflow: hidden;
+    //     margin: 20vh 0 0 10vw;
+
+    //     >.suggestion {
+    //         position: relative;
+    //         display: none;
+
+    //         align-items: center;
+    //         justify-content: left;
+
+    //         width: 90%;
+    //         z-index: 99;
+    //         margin: 0 auto;
+    //         border-radius: 0 0 13px 13px;
+
+
+    //         padding: 3vh 2vw;
+
+    //         font-size: 15px;
+    //         font-family: 'Poppins', sans-serif;
+    //         text-align: left;
+
+    //         background-color: var(--light);
+
+    //         &:hover {
+    //             cursor: default;
+    //         }
+
+    //         &>ul {
+    //             z-index: 100;
+    //             list-style-type: none;
+
+    //             >li {
+    //                 margin: 3px 0;
+
+    //                 >a {
+    //                     z-index: 100;
+    //                     position: relative;
+    //                     padding: 5px 0;
+    //                     color: rgba(255, 255, 255, 0.616);
+    //                     text-decoration: none;
+    //                     transition: all .1s ease-in;
+
+    //                     &:hover {
+    //                         cursor: pointer;
+
+    //                         &:focus {
+    //                             color: var(--accent);
+    //                         }
+    //                     }
+
+    //                     &:after {
+    //                         content: '';
+    //                         width: 100%;
+    //                         height: 1px;
+    //                         background: var(--accent);
+    //                         position: absolute;
+    //                         bottom: 0;
+    //                         left: 0;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+}

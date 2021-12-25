@@ -1,0 +1,57 @@
+.content {
+    margin-top: 20vh;
+}
+
+.swiper {
+    width: 85%;
+    height: 33vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    top: calc(50% - 2rem) !important;
+}
+
+.netflix-slider {
+    width: 100%;
+
+    h2 {
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .swiper-wrapper {
+        width: 20%;
+
+        .swiper-slide {
+            transition: all .2s ease-in-out;
+            margin: 0 0.3vw;
+
+            img {
+                border-radius: 10px;
+                max-width: 100%;
+                height: auto;
+                box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+            }
+
+            &:hover {
+                transform: scale(1.2);
+                z-index: 1;
+            }
+
+            &:first-child:hover {
+                margin: 0 40px;
+            }
+
+            &:last-child:hover {
+                margin: 0 -40px;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/dist/index.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <title>Films & Séries | Accueil</title>
+    </head>
+    <body>
+        <header>
+            <img src="/api/img/logo.svg" alt="">
+            <div class="search">
+                <div class="search-box">
+                    <div class="in">
+                        <a href="/" class="home"><i class="ri-home-line"></i></a>
+                        <input id="sb" class="search-bar" type="text" placeholder="Rechercher...">
+                        <i class="ri-search-line" id="si"></i>
+                    </div>
+                    <div class="suggestion" id="suggestion">
+                        <ul id="list">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="container">
+            <h1 id="name">Films</h1>
+
+            <div class="sub" id="display">
+
+            </div>
+        </section>
+
+        <script src="/js/index.js"></script>
+        <script src="/js/displaySeason.js"></script>
+    </body>
+</html>
