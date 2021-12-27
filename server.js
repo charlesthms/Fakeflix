@@ -3,6 +3,7 @@ const https = require('http');
 const fs = require('fs');
 const path = require('path');
 const { timeLog } = require('console');
+const ip = require('ip');
 
 const PORT = 3000;
 const initial_path = path.join(__dirname, "/");
@@ -53,4 +54,7 @@ app.get("/api/:folder/:ressource", (req, res) => {
     res.sendFile(path.join(initial_path, `/static/${req.params.folder}/${req.params.ressource}`));
 })
 
-app.listen(PORT, () => console.log(`Server listenning on port ${PORT}`));
+app.listen(PORT, () => {
+    console.log("\x1b[35m" ,`Serveur lancé:\n`);
+    console.log("\x1b[32m", `   - http://localhost:3000/\n    - http://${ip.address()}:3000/`);
+});

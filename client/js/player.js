@@ -66,6 +66,7 @@ class Utils {
     }
 }
 
+const IP = '192.168.1.47';
 
 // DOM
 const pa = new URLSearchParams(window.location.search);
@@ -79,7 +80,7 @@ const poster = document.getElementById('video');
 home.setAttribute('href', "/");
 
 if(Utils.isMovie(pa)){
-    document.getElementById("src").setAttribute('src', `http://192.168.1.36:3000/films/${pa.get("name")}`);
+    document.getElementById("src").setAttribute('src', `http://${IP}:3000/films/${pa.get("name")}`);
 
     Utils.getDetails(pa, true).then((res) => {
         poster.setAttribute('poster', `${res.img}`);
@@ -99,7 +100,7 @@ if(Utils.isMovie(pa)){
         document.title = res.title;
     });
 
-    document.getElementById("src").setAttribute('src', `http://192.168.1.36:3000/series/${array[0]}/${array[1]}/${array[2]}`);
+    document.getElementById("src").setAttribute('src', `http://${IP}:3000/series/${array[0]}/${array[1]}/${array[2]}`);
     document.getElementById("ep").innerHTML = `| ${array[1].toUpperCase()} - ${array[2].toUpperCase()}`;
     next.setAttribute('href', `/watch?path=${Utils.getNextEp(pa)}`);
     prev.setAttribute('href', `/watch?path=${Utils.getPrevEp(pa)}`);

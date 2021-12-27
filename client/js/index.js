@@ -11,7 +11,7 @@ const onFocusOut = () => {
     setTimeout(() => {
         suggContainer.style.display = "none";
         suggestions.innerHTML = ''
-    }, 150);
+    }, 200);
 }
 searchBar.addEventListener('focusout', onFocusOut);
 
