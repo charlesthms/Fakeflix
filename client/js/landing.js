@@ -25,7 +25,7 @@ find("movie").then((res) => {
         </div>
         `;
     }
-    var swiper = new Swiper('.swiper', {
+    const swiper = new Swiper('.swiper', {
         slidesPerView: 5,
         slidesPerGroup: 2,
         pagination: {
